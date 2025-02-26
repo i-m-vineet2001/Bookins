@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body,
+html{
+    padding: 0;
+    margin: 0;
+   font-family: "Comic Neue", serif;
+  font-weight: 700;
+  font-style: normal;
+    height: 100%;
+}
+.up{
+    margin-top: 0px;
+}
+h1{
+    margin-bottom: 0;
+}
+#slogan{
+    color:#a392ea ;
+    margin-top: 0;
+}
+#text3{
+    color:#796ea4;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="email"]{
+    padding:10px;
+    font-family: "Comic Neue", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+    border: 1px solid#ccc;
+    width: 250px;
+    border-radius: 10px;
+}
+button{
+    padding: 5px;
+    font-family: "Comic Neue", serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color:#7467a8;
+    border: 4px black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: medium;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow:1px 4px 6px rgba(83, 79, 79, 0.2); 
+}
+button:hover{
+    background-color: #030303; 
+}
+.container{
+    background:linear-gradient(135deg,#8a2be2,#4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.logo{
+    padding:0px;
+    width: 500px;
+    height: 350px;
+    object-fit:contain;
+}
+.content{
+    text-align: center;
+    display: flex;
+    background: linear-gradient(73deg, #121313,#4a4a4b);
+    color: #f5c6f6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    box-shadow: 9px 8px 9px rgba(0, 0, 0, 0.4);
+    position: relative; /* Ensures it stays above */
+    z-index: 1; /* Brings it forward */
+}
+svg{
+    position: absolute;
+    transform: rotate(180deg);
+    transform: scaleY(-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
